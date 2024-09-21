@@ -1,0 +1,5 @@
+@startuml
+class CronExpressionParser
+class CronExpressionProcessorFactory
+CronExpressionParser --> CronExpressionProcessorFactory : creates
+@enduml
